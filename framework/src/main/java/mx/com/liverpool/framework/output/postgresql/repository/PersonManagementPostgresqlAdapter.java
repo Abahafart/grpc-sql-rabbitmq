@@ -25,6 +25,8 @@ public class PersonManagementPostgresqlAdapter implements PersonManagementOutput
     PersonEntity entity = personMapper.fromModelToEntity(model);
     entity.setAge(25);
     entity.setState("Mexico City");
+    PersonDO personDO = personMapper.fromEntityToModel(repository.save(entity));
+    personDO.setId(model.getId());
     return personMapper.fromEntityToModel(repository.save(entity));
   }
 

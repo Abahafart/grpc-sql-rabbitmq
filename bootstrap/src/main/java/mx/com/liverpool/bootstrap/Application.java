@@ -8,7 +8,7 @@ import org.springframework.context.annotation.FilterType;
 import mx.com.liverpool.application.generic.ServiceApplication;
 
 @SpringBootApplication
-@ComponentScan(includeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {
+@ComponentScan(basePackages = {"com.mx.liverpool"}, includeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {
     ServiceApplication.class})})
 public class Application {
 
