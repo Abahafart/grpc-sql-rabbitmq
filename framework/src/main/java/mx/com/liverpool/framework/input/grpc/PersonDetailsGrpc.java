@@ -3,9 +3,9 @@ package mx.com.liverpool.framework.input.grpc;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.mx.liverpool.grpc.PersonDetailsRequest;
-import com.mx.liverpool.grpc.PersonDetailsResponse;
-import com.mx.liverpool.grpc.PersonServiceGrpc.PersonServiceImplBase;
+import mx.com.liverpool.grpc.PersonDetailsRequest;
+import mx.com.liverpool.grpc.PersonDetailsResponse;
+import mx.com.liverpool.grpc.PersonServiceGrpc.PersonServiceImplBase;
 
 import io.grpc.stub.StreamObserver;
 import lombok.RequiredArgsConstructor;

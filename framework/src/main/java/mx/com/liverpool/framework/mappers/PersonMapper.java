@@ -2,8 +2,8 @@ package mx.com.liverpool.framework.mappers;
 
 import org.mapstruct.Mapper;
 
-import com.mx.liverpool.grpc.PersonDetailsRequest;
-import com.mx.liverpool.grpc.PersonDetailsResponse;
+import mx.com.liverpool.grpc.PersonDetailsRequest;
+import mx.com.liverpool.grpc.PersonDetailsResponse;
 
 import mx.com.liverpool.domain.PersonDO;
 import mx.com.liverpool.framework.config.MappingConfig;
