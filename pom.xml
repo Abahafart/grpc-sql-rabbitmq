@@ -23,6 +23,7 @@
 		<junit-jupiter-api.version>5.10.2</junit-jupiter-api.version>
 		<archunit-junit5.version>1.3.0</archunit-junit5.version>
 		<slf4j-api.version>2.0.13</slf4j-api.version>
+		<grpc-client-spring-boot-starter.version>3.1.0.RELEASE</grpc-client-spring-boot-starter.version>
 		<person-details.version>1.0.0-SNAPSHOT</person-details.version>
 	</properties>
 	<modules>
